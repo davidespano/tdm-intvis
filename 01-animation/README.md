@@ -58,3 +58,5 @@ top 100 companies from 2000 to 2019.
 We are not going to discuss it in detail, we only discuss why 
 it is effective from a theoretical point of view. Complete details
 are available in the [D3 bar chart race sample](https://observablehq.com/@d3/bar-chart-race-explained)
+
+The most important point for the animation is counting the objects the user must track. A rule of thumb is no more than 7, otherwise it's difficult to follow the animation evolution. 
