@@ -1,5 +1,4 @@
-// based on https://observablehq.com/@d3/learn-d3-animation?collection=@d3/learn-d3
-// https://observablehq.com/@d3/bar-chart-race-explained
+
 window.onload = function () {
     const step = 5
 

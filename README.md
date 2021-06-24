@@ -27,3 +27,22 @@ the samples from there.
 It's also possible to run the project without Webstorm as a simple
 node.js project. Or, it's also possible to copy-paste the samples
 in the public html folder of your preferred local webserver. 
+
+## How to follow the different steps in the tutorials
+
+All the samples contain the same file structure:
+* the index.html page, which is the file to be loaded through the browser
+* the vis.js script, containing the code for generating the visualizations
+* the style.css, containing a few (or none) settings for displaying the page
+* a set of CSV files containing the data to show
+
+Most samples start from a static visualization and add the 
+interactive features on top of it. Only the samples having multiple 
+coordinate views or employing distortions have the aspects packed
+together. 
+
+Each sample leverages on the _window.onload_ event for appending 
+the visualization to the page body. The handler function contains 
+the variable _step_ you can modify for going forward in the tutorial.
+The switch shows which visualizations or interactions are active
+at the corresponding step. 
