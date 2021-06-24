@@ -89,7 +89,6 @@ async function staticLine() {
         .attr("stroke-width", 1.5)
         .attr("stroke-miterlimit", 1)
         .attr("d", vis.line(vis.data));
-
     vis.svg.append("g")
         .call(vis.xAxis);
 

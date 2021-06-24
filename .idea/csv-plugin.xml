@@ -17,27 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/01-selection/aapl-bollinger.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/02-zoom/flights.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/02-zoom/us-ag-productivity.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/04-brush/aapl.csv">
           <value>
             <Attribute>

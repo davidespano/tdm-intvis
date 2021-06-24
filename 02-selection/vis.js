@@ -1,7 +1,7 @@
-// based on https://observablehq.com/@d3/learn-d3-interaction?collection=@d3/learn-d3
+
 
 window.onload = function () {
-    const step = 4
+    const step = 2
 
     switch (step) {
         case 0:
