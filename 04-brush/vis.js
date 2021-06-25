@@ -1,7 +1,3 @@
-// based on https://observablehq.com/@d3/brush-filter?collection=@d3/d3-brush
-// https://observablehq.com/@d3/focus-context
-
-
 window.onload = function () {
     const step = 3
 
@@ -224,7 +220,6 @@ async function context(focus){
     function brushed({selection}) {
         if (selection) {
             ctx.svg.property("value", selection.map(ctx.x.invert, ctx.x).map(d3.utcDay.round));
-            ctx.svg.dispatch("input");
             ctx.update()
         }
     }
