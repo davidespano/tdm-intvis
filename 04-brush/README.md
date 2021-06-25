@@ -37,7 +37,9 @@ We start from a dataset containing the characteristics of penguins, including th
 
 Since the dimension of the attributes to show is higher than 2, it's useful to show a pairwise comparison of the numerical attributes, to see if there are some characteristics peculiar of a species. The species is color coded in the data points. 
 
-The trick is keeping taking all the data items outside the selection in the current cell and then add a "hidden" CSS class to the points in all cells corresponding to those data items. 
+The trick is keeping taking all the data items outside the selection in the current cell and then add a "hidden" CSS class to the points in all cells corresponding to those data items.
+
+For selecting these data points we leverage on the [D3 filtering](https://github.com/d3/d3-array/blob/v3.0.1/README.md#filter), which allows selecting a subset of the dataset before showing the visualization. 
 
 We reset the selection if the brush is empty. 
 

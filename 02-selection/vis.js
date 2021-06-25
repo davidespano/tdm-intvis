@@ -1,11 +1,12 @@
 
 
 window.onload = function () {
-    const step = 2
+    const step = 4
 
     switch (step) {
         case 0:
             staticLine().then()
+            break;
 
         case 1:
             staticLine().then(

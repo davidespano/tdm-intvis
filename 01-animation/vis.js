@@ -54,9 +54,6 @@ async function staticLine() {
     vis.width = document.querySelector('body').clientWidth
     vis.height = 250;
 
-
-
-
     vis.margin = ({top: 20, right: 30, bottom: 30, left: 40})
     vis.svg = d3.select('body')
         .append("svg")
@@ -122,7 +119,6 @@ function timedLine(vis){
 
     let rep = setInterval(animationLoop, 10);
 
-
 }
 
 function revealLineGradient(vis){
@@ -175,9 +171,9 @@ function yearTransition(vis){
 async function barChartRace(){
     const data = await d3.csv("category-brands.csv", d3.autoType);
     const duration = 250;
-    const n = 12;
+    const n = 16;
     const k = 10;
-    const height = 598;
+    const height = 800;
     const width = 800;
     const barSize = 48;
     const margin = ({top: 16, right: 6, bottom: 6, left: 0})
