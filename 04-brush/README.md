@@ -9,7 +9,7 @@ In this tutorial, we will first introduce the fundamentals of implementing the b
 The samples we discuss are based on:
 1. [D3 brush tutorial](https://observablehq.com/@d3/brush-filter?collection=@d3/d3-brush)
 2. [D3 focus + context tutorial](https://observablehq.com/@d3/focus-context) 
-3- [D3 Brushable Scatterplot Matrix](https://observablehq.com/@d3/brushable-scatterplot-matrix)
+3. [D3 Brushable Scatterplot Matrix](https://observablehq.com/@d3/brushable-scatterplot-matrix)
 
 ## Step 0
 In this step, we create a scatterplot displaying randomly generated data points. We will use a uniform distribution for randomly picking the X and Y coordinates respectively from the [0, width] and the [0, height] range. 
