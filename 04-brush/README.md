@@ -6,6 +6,10 @@ You can find more information about the brushing techique in the InfoVis Wiki, r
 
 In this tutorial, we will first introduce the fundamentals of implementing the brushing technique in D3.js, then we will show two typical sample applications, defining a Focus + Context visualization and a linked highlighting technique on small multiple views. 
 
+We recall that using multiple views is a technique for handling the visualization complexity. The following table summarises in which cases it's useful to include multiple visualizations, according to the selected encoding between the visualizations (same or different) and the amount of shared data (none, subset, or all).
+
+![Multiple visualization selection cheatsheet](multiple-view-table.png)
+
 The samples we discuss are based on:
 1. [D3 brush tutorial](https://observablehq.com/@d3/brush-filter?collection=@d3/d3-brush)
 2. [D3 focus + context tutorial](https://observablehq.com/@d3/focus-context) 

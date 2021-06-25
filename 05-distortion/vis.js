@@ -1,6 +1,3 @@
-// based on https://observablehq.com/@d3/brush-filter?collection=@d3/d3-brush
-// https://observablehq.com/@d3/focus-context
-
 
 window.onload = function () {
     const step = 1
